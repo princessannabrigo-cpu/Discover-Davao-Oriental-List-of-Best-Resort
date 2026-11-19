@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Discover Davao Oriental with a question or feedback.">
+  <title>Contact | Discover Davao Oriental</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="nav-brand" href="index.html" aria-label="Discover Davao Oriental home">
+        <img src="Images/LP.jpg" alt="" srcset="" height="50px" width="50px" style="border-radius: 50%;">
+        <span>Discover Davao Oriental</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-controls="navLinks"
+        aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="resorts.html">Resorts &amp; Guide</a></li>
+        <li><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container"><span class="eyebrow">Say hello</span>
+        <h1>Questions, feedback, or a place we should add?</h1>
+        <p>Send us a message. This is a front-end contact form ready for you to connect to an email service or your own
+          backend.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container contact-layout">
+        <div><span class="eyebrow">Contact details</span>
+          <h2 class="section-title">We would love to hear from you.</h2>
+          <p class="section-subtitle">Use the form for questions about this guide, corrections, or recommendations.
+            Please avoid sharing sensitive personal information.</p>
+          <div class="contact-points">
+            <div class="contact-point"><span class="contact-icon" aria-hidden="true">✉</span>
+              <div><strong>Email</strong><span>hello@example.com</span></div>
+            </div>
+            <div class="contact-point"><span class="contact-icon" aria-hidden="true">⌖</span>
+              <div><strong>Based in</strong><span>Davao Oriental, Philippines</span></div>
+            </div>
+            <div class="contact-point"><span class="contact-icon" aria-hidden="true">☀</span>
+              <div><strong>Friendly reminder</strong><span>Always verify current resort details before traveling.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text"
+                autocomplete="name" required></div>
+            <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email"
+                autocomplete="email" required></div>
+          </div>
+          <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text"
+              required></div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message"
+              required></textarea></div><button class="btn btn-ocean" type="submit">Send message</button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="nav-brand" href="index.html"><span>Discover
+            Davao Oriental</span></a>
+        <p class="footer-blurb">An educational tourism guide celebrating the coast, culture, and communities of Davao
+          Oriental.</p>
+      </div>
+      <div>
+        <h2 class="footer-title">Explore</h2>
+        <ul class="footer-links">
+          <li><a href="resorts.html">Resorts &amp; guide</a></li>
+          <li><a href="about.html">Our story</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">Connect</h2>
+        <ul class="footer-links">
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Discover Davao Oriental</span><span>For educational purposes
+        only.</span></div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
