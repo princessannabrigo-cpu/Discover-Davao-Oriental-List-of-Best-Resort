@@ -1,1 +1,1 @@
-# Discover-Davao
+Where Davao Oriental begins, the Philippines ends. As the country's easternmost province, it is where the sun first touches the archipelago — and where the Pacific Ocean meets the land in a long, unbroken line of white sand, limestone cliffs, and jungle that no one has yet paved over. Its capital, Mati City, is a rising beach and adventure destination, while the inland towns of Cateel, Baganga, and Caraga hide waterfalls, islands, and forests that still feel genuinely wild. 
